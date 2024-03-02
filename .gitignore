@@ -71,3 +71,5 @@ debug/*
 
 backup-src
 AuthKey.p8
+pre-commit
+yarn.lock
