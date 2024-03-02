@@ -1,0 +1,22 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": { "ecmaVersion": "latest", "sourceType": "module" },
+    "extends": ["plugin:@typescript-eslint/recommended"],
+    "env": {
+      "node": true // Enabling Node.js global variables
+    },
+    "rules": {
+"no-comments": [
+  "error",
+  {
+    "allow": [
+      "multiline", // Allow multiline comments (e.g., for documentation)
+      "singleline", // Optionally allow single-line comments (be cautious)
+      "eslint-disable" // Allow comments specifically disabling ESLint rules
+    ]
+  }
+],
+"spaced-comment": "error", // Enforce consistent spacing around comments
+"no-trailing-spaces": "error" // 
+    }
+  }
